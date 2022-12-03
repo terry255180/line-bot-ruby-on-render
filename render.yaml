@@ -4,7 +4,7 @@ services:
   env: ruby
   repo: https://github.com/terry255180/line-bot-sdk-ruby.git
   buildCommand: cd kamigo_controller;BUNDLE_DEPLOYMENT=false bundle install
-  startCommand: cd kamigo_controller.rb;bundle exec ruby app.rb
+  startCommand: cd kamigo_controller;bundle exec ruby kamigo_controller.rb
   plan: free
   autoDeploy: false
   envVars:
