@@ -2,7 +2,7 @@ services:
 - type: web
   name: line-bot-ruby-echo
   env: ruby
-  repo: https://github.com/terry255180/line-bot-sdk-ruby.git
+  repo: https://github.com/terry255180/LineChatBot.git
   buildCommand: cd kamigo_controller;BUNDLE_DEPLOYMENT=false bundle install
   startCommand: cd kamigo_controller;bundle exec ruby kamigo_controller.rb
   plan: free
