@@ -3,8 +3,8 @@ services:
   name: line-bot-ruby-echo
   env: ruby
   repo: https://github.com/terry255180/line-bot-sdk-ruby.git
-  buildCommand: cd examples/echobot;BUNDLE_DEPLOYMENT=false bundle install
-  startCommand: cd examples/echobot;bundle exec ruby app.rb
+  buildCommand: cd examples/kitchensink;BUNDLE_DEPLOYMENT=false bundle install
+  startCommand: cd examples/kitchensink;bundle exec ruby app.rb
   plan: free
   autoDeploy: false
   envVars:
