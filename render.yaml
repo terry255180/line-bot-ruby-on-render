@@ -16,7 +16,7 @@ services:
 #   buildCommand: cd examples/echobot;gem install sinatra line-bot-api
 #   startCommand: cd examples/echobot;ruby app.rb
  - type: web
-   name: line-bot-ruby-echobot
+   name: line-bot-ruby-echo
    env: ruby
    repo: https://github.com/terry255180/line-bot-sdk-ruby.git
    buildCommand: cd examples/echobot;BUNDLE_DEPLOYMENT=false bundle install
