@@ -12,12 +12,15 @@ services:
 #    sync: false
 #  - key: LINE_CHANNEL_SECRET
 #    sync: false
+#   repo: https://github.com/terry255180/line-bot-sdk-ruby.git
+#   buildCommand: cd examples/echobot;gem install sinatra line-bot-api
+#   startCommand: cd examples/echobot;ruby app.rb
  - type: web
    name: line-bot-ruby-echobot
    env: ruby
    repo: https://github.com/terry255180/line-bot-sdk-ruby.git
-   buildCommand: cd examples/echobot;gem install sinatra line-bot-api
-   startCommand: cd examples/echobot;ruby app.rb
+   buildCommand: cd examples/echobot;BUNDLE_DEPLOYMENT=false bundle install
+   startCommand: cd examples/echobot;bundle exec ruby app.rb
    plan: free
    autoDeploy: false
    envVars:
