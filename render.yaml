@@ -13,7 +13,7 @@ services:
 #  - key: LINE_CHANNEL_SECRET
 #    sync: false
  - type: web
-   name: line-bot-ruby-kitchensink
+   name: line-bot-ruby-echobot
    env: ruby
    repo: https://github.com/terry255180/line-bot-sdk-ruby.git
    buildCommand: cd examples/echobot;gem install sinatra line-bot-api
