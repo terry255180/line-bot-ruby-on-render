@@ -16,8 +16,8 @@ services:
    name: line-bot-ruby-kitchensink
    env: ruby
    repo: https://github.com/terry255180/line-bot-sdk-ruby.git
-   buildCommand: cd examples/kitchensink;gem install sinatra line-bot-api
-   startCommand: cd examples/kitchensink;ruby app.rb
+   buildCommand: cd examples/echobot;gem install sinatra line-bot-api
+   startCommand: cd examples/echobot;ruby app.rb
    plan: free
    autoDeploy: false
    envVars:
