@@ -21,7 +21,7 @@ services:
   plan: free
   autoDeploy: false
   envVars:
-  - key: El6tU2eGU1tEvjEWxsW6kFidUprY89ZbWPn5HpDjYLxx0szdGHIP6l/FEiQGDxpKavPQgLrLNaIgyO5BQX4e4bAVvI8IP7OpSPX/XzCkLbSqVrVj/Y3eEsv2odmqE22f22zEVh3TLUfuPRyZawxAowdB04t89/1O/w1cDnyilFU=
+  - key: LINE_CHANNEL_TOKEN
     sync: false
-  - key: dc62e62d81121757e6b1c2b35d347599
+  - key: LINE_CHANNEL_SECRET
     sync: false
